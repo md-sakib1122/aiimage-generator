@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.givepromt{
+    background:url("background.jpg");
+    object-fit: cover;
+    height:300px;
+    color:white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+}
+
+h1{
+ margin-bottom: 30px;
+ 
+}
+.info{
+ margin-bottom: 30px;
+}
+
+.generate{
+    background-color: white;
+    width: 60%;  
+    height:45px;
+    border-radius:50px;
+    border:none;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+}
+.generate input{
+    height:100%;
+    left:0;
+    top:0;
+    bottom:0;
+    outline: 0;
+    border-radius:50px;
+    flex-grow:1;
+    border:0px;
+    padding-left: 7px;
+    font-size:16px;
+    
+}
+.generate input::placeholder{
+    padding-left: 10px;
+}
+
+
+.generate button{
+    height:100%;
+    border: 0;
+
+ 
+    
+}
+select{
+    border:none;
+    outline:0;
+    height:80%;
+}
+.generate button{
+    border-radius:50px;
+    width:100px;
+    color: white;
+    background-color:#5dbea3;
+    font-weight: bold;
+    font-size: 15px;
+   
+   
+}
+
+.outputcontainer{
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    padding-left:15px;
+    padding-right: 15px;
+    margin-top: 30px;
+
+    
+}
+
+
+ .out img{
+    display:block;
+    margin: auto;
+    height: 250px;
+    width:300px;
+    object-fit: cover;
+}
+
+
